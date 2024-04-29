@@ -18,7 +18,7 @@ export function Component() {
   const [name, SetName] = useState("");
   const [description, SetDescription] = useState("");
   // const baseurl = "http://127.0.0.1:8000";
- const baseurl = "https://casual-aphid-correctly.ngrok-free.app";
+ const baseurl = "http://localhost";
   useEffect(() => {
     fetchdata();
   }, [data]);
